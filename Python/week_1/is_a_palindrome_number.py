@@ -15,3 +15,8 @@ while div != 0:
     newNum = newNum + (rem * divMax)
     divMax = divMax // 10
     div = div // 10
+
+if n == newNum:
+    print("true")
+else:
+    print("false")
